@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "557957121971",
+    "firebase_url": "https://appcenter-test.firebaseio.com",
+    "project_id": "appcenter-test",
+    "storage_bucket": "appcenter-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557957121971:android:050dd412ce924955",
+        "android_client_info": {
+          "package_name": "com.naibeck.poc.appcenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557957121971-0nsgurb4lbkgl6284pecgkve8jeb711q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLkqea3YDNoOY7tDEyTQXFXDVqD-U7C7U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
