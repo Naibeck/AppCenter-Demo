@@ -20,7 +20,7 @@ class MainActivityTest {
         button.performClick()
 
         // Validation
-        val expectedFeedback = "Pressed! Coff"
+        val expectedFeedback = "Pressed!"
         Assert.assertEquals("Button text should shown: Pressed!", expectedFeedback, button.text.toString())
     }
 
