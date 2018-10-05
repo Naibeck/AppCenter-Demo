@@ -7,6 +7,7 @@ import android.widget.Button
 import com.microsoft.appcenter.AppCenter
 import com.microsoft.appcenter.analytics.Analytics
 import com.microsoft.appcenter.crashes.Crashes
+import com.microsoft.appcenter.push.Push
 
 
 class MainActivity : AppCompatActivity() {
@@ -33,6 +34,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun initAppCenter() {
         AppCenter.start(application, "80c08496-d4c0-46d9-8ea8-4f5ffb569571",
-                Analytics::class.java, Crashes::class.java, Analytics::class.java)
+                Analytics::class.java, Crashes::class.java, Analytics::class.java, Push::class.java)
     }
 }
