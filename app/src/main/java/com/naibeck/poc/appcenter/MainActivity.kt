@@ -2,6 +2,7 @@ package com.naibeck.poc.appcenter
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.widget.Button
 import com.microsoft.appcenter.AppCenter
 import com.microsoft.appcenter.analytics.Analytics
 import com.microsoft.appcenter.crashes.Crashes
@@ -13,6 +14,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initAppCenter()
+
+        val button = findViewById<Button>(R.id.button)
+        button.setOnClickListener { button.text = getString(R.string.pressed_feedback) }
     }
 
     private fun initAppCenter() {
